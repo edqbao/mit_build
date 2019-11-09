@@ -18,7 +18,7 @@
           Incorrect
         </h1>
         <p class="subheading font-weight-regular">
-          Bond prices and interest rates have an inverse relationship, so when interest rates rise, bond prices drop and vice versa.
+          When you earn interest on savings, that interest then earns interest on itself and this amount is compounded monthly. The higher the interest, the more your money grows!
         </p>
       </v-flex>
 
@@ -27,7 +27,7 @@
         xs12
       >
         <div class="my-2">
-          <router-link :to="{name: 'bond'}">
+          <router-link :to="{name: 'question_two'}">
             <v-btn x-large color="success" dark>Next Question</v-btn>
           </router-link>
         </div>

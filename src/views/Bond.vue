@@ -6,30 +6,11 @@
     >
       <v-flex mb-12 md12>
         <h4 class="display-2 font-weight-bold mb-3">
-          If interest rates rise, what happens to the price of your bond?
+          Which of these interest options do you prefer to invest your money?
         </h4>
       </v-flex>
 
-      <v-flex md4>
-        <v-card>
-        <v-img
-          :src="require('../assets/logo.svg')"
-          class="my-3"
-          contain
-          height="50"
-        ></v-img>
-        <p class="subheading font-weight-regular">
-          It Goes Up
-        </p>
-        <router-link :to="{name: 'incorrect'}">
-        <v-btn
-          text
-          color="success"
-        >
-          Select
-        </v-btn>
-        </router-link>
-        </v-card>
+      <v-flex md2>
       </v-flex>
       <v-flex md4>
         <v-card>
@@ -40,9 +21,9 @@
           height="50"
         ></v-img>
         <p class="subheading font-weight-regular">
-          It Goes Down
+          Compound Interest
         </p>
-        <router-link :to="{name: 'correct'}">
+        <router-link :to="{name: 'correct_one'}">
         <v-btn
           text
           color="success"
@@ -62,9 +43,9 @@
           height="50"
         ></v-img>
         <p class="subheading font-weight-regular">
-          No Effect
+          Simple Interest
         </p>
-        <router-link :to="{name: 'incorrect'}">
+        <router-link :to="{name: 'incorrect_one'}">
         <v-btn
           text
           color="success"
@@ -73,6 +54,8 @@
         </v-btn>
         </router-link>
         </v-card>
+      </v-flex>
+      <v-flex md2>
       </v-flex>
 
     </v-layout>

@@ -18,7 +18,7 @@
           Correct
         </h1>
         <p class="subheading font-weight-regular">
-          When you earn interest on savings, that interest then earns interest on itself and this amount is compounded monthly. The higher the interest, the more your money grows!
+          Time is your friend. Invest Small and Early!
         </p>
       </v-flex>
 
@@ -27,7 +27,7 @@
         xs12
       >
         <div class="my-2">
-          <router-link :to="{name: 'question_two'}">
+          <router-link :to="{name: 'question_three'}">
             <v-btn x-large color="success" dark>Next Question</v-btn>
           </router-link>
         </div>

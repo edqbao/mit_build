@@ -10,9 +10,7 @@
         </h4>
       </v-flex>
 
-      <v-flex md2>
-      </v-flex>
-      <v-flex md4>
+      <v-flex md3>
         <v-card>
         <v-img
           :src="require('../assets/logo.svg')"
@@ -21,7 +19,7 @@
           height="50"
         ></v-img>
         <p class="subheading font-weight-regular">
-          Stocks
+          Financial Basics
         </p>
         <router-link :to="{name: 'time'}">
         <v-btn
@@ -33,7 +31,7 @@
         </router-link>
         </v-card>
       </v-flex>
-      <v-flex md4>
+      <v-flex md3>
         <v-card>
         <v-img
           :src="require('../assets/logo.svg')"
@@ -42,7 +40,7 @@
           height="50"
         ></v-img>
         <p class="subheading font-weight-regular">
-          Bonds
+          Investment Choices
         </p>
         <router-link :to="{name: 'time'}">
         <v-btn
@@ -54,7 +52,47 @@
         </router-link>
         </v-card>
       </v-flex>
-      <v-flex md2>
+      <v-flex md3>
+        <v-card>
+        <v-img
+          :src="require('../assets/logo.svg')"
+          class="my-3"
+          contain
+          height="50"
+        ></v-img>
+        <p class="subheading font-weight-regular">
+          Practical Tips
+        </p>
+        <router-link :to="{name: 'time'}">
+        <v-btn
+          text
+          color="success"
+        >
+          Learn
+        </v-btn>
+        </router-link>
+        </v-card>
+      </v-flex>
+      <v-flex md3>
+        <v-card>
+        <v-img
+          :src="require('../assets/logo.svg')"
+          class="my-3"
+          contain
+          height="50"
+        ></v-img>
+        <p class="subheading font-weight-regular">
+          Common Pitfalls
+        </p>
+        <router-link :to="{name: 'time'}">
+        <v-btn
+          text
+          color="success"
+        >
+          Learn
+        </v-btn>
+        </router-link>
+        </v-card>
       </v-flex>
 
     </v-layout>

@@ -6,7 +6,7 @@
     >
       <v-flex mb-12 md12>
         <h4 class="display-2 font-weight-bold mb-3">
-          I want spend...
+          If interest rates rise, what happens to the price of your bond?
         </h4>
       </v-flex>
 
@@ -21,18 +21,19 @@
           height="50"
         ></v-img>
         <p class="subheading font-weight-regular">
-          5 Minutes A Day
+          It Goes Down
         </p>
-        <router-link :to="{name: 'question_one'}">
+        <router-link :to="{name: 'correct_three'}">
         <v-btn
           text
           color="success"
         >
-          Learn
+          Select
         </v-btn>
         </router-link>
         </v-card>
       </v-flex>
+
       <v-flex md4>
         <v-card>
         <v-img
@@ -42,14 +43,14 @@
           height="50"
         ></v-img>
         <p class="subheading font-weight-regular">
-          10 Minutes A Day
+          No Effect
         </p>
-        <router-link :to="{name: 'question_one'}">
+        <router-link :to="{name: 'incorrect_three'}">
         <v-btn
           text
           color="success"
         >
-          Learn
+          Select
         </v-btn>
         </router-link>
         </v-card>
