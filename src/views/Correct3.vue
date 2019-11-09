@@ -27,7 +27,7 @@
         xs12
       >
         <div class="my-2">
-          <router-link :to="{name: 'question_three'}">
+          <router-link :to="{name: 'end'}">
             <v-btn x-large color="success" dark>Next Question</v-btn>
           </router-link>
         </div>

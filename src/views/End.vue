@@ -15,11 +15,8 @@
 
       <v-flex mb-4>
         <h1 class="display-2 font-weight-bold mb-3">
-          Incorrect
+          You completed your first challenge! Please create an account to keep going.
         </h1>
-        <p class="subheading font-weight-regular">
-          Bond prices and interest rates have an inverse relationship, so when interest rates rise, bond prices drop and vice versa.
-        </p>
       </v-flex>
 
       <v-flex
@@ -27,9 +24,7 @@
         xs12
       >
         <div class="my-2">
-          <router-link :to="{name: 'end'}">
-            <v-btn x-large color="success" dark>Next Question</v-btn>
-          </router-link>
+          <v-btn x-large color="success" dark>Signup</v-btn>
         </div>
       </v-flex>
     </v-layout>
