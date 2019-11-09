@@ -24,7 +24,7 @@
         xs12
       >
         <div class="my-2">
-          <router-link :to="{name: 'about'}">
+          <router-link :to="{name: 'time'}">
             <v-btn x-large color="success" dark>Start here</v-btn>
           </router-link>
         </div>

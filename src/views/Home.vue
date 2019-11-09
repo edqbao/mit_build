@@ -21,7 +21,7 @@
         <p class="subheading font-weight-regular">
           Financial Basics
         </p>
-        <router-link :to="{name: 'time'}">
+        <router-link :to="{name: 'question_one'}">
         <v-btn
           text
           color="success"
@@ -42,7 +42,7 @@
         <p class="subheading font-weight-regular">
           Investment Choices
         </p>
-        <router-link :to="{name: 'time'}">
+        <router-link :to="{name: 'question_one'}">
         <v-btn
           text
           color="success"
@@ -63,7 +63,7 @@
         <p class="subheading font-weight-regular">
           Practical Tips
         </p>
-        <router-link :to="{name: 'time'}">
+        <router-link :to="{name: 'question_one'}">
         <v-btn
           text
           color="success"
@@ -84,7 +84,7 @@
         <p class="subheading font-weight-regular">
           Common Pitfalls
         </p>
-        <router-link :to="{name: 'time'}">
+        <router-link :to="{name: 'question_one'}">
         <v-btn
           text
           color="success"

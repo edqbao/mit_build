@@ -23,7 +23,7 @@
         <p class="subheading font-weight-regular">
           5 Minutes A Day
         </p>
-        <router-link :to="{name: 'question_one'}">
+        <router-link :to="{name: 'about'}">
         <v-btn
           text
           color="success"
@@ -44,7 +44,7 @@
         <p class="subheading font-weight-regular">
           10 Minutes A Day
         </p>
-        <router-link :to="{name: 'question_one'}">
+        <router-link :to="{name: 'about'}">
         <v-btn
           text
           color="success"
